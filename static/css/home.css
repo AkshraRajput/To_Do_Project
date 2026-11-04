@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.task_box{
+    margin-top: 10px;
+    width: 95%;
+    margin: auto;
+    text-align: left;
+}
+
+.parent_box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+table{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.edit_btn {
+    background-color: #FFC107;
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.delete_btn {
+    background-color: #DC3545;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.edit_btn:hover {
+    background-color: #E0A800;
+}
+
+.delete_btn:hover {
+    background-color: #BB2D3B;
+}
+
+input[type="checkbox"] {
+    accent-color: green;
+}

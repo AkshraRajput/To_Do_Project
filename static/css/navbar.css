@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #FAFAFC;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.nav_button{
+      background-color: #0C7BFF;
+      color: white;
+      padding: 5px 10px;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+}
+
+.text_add_task{
+    color: white;
+    text-decoration: none;
+}
